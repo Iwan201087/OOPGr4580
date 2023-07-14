@@ -33,19 +33,19 @@ public class App {
         averageAgeStudents.add(new Student("Евгений", "Белоручко ", 28, 10001));
         averageAgeStudents.add(new Student("Инна", "Прохурина ", 23, 10002));
         averageAgeStudents.add(new Student("Максим", "Иванов ", 29, 10003));
-        System.out.println(averageAgeStudents + " (для студентов)");
+        System.out.println(averageAgeStudents + " ( студентов)");
 
         AverageAge<Teacher> averageAgeTeachers = new AverageAge<>();
         averageAgeTeachers.add(new Teacher("Александр", "Кургузиков ", 56, 100001, "Кандидат"));
         averageAgeTeachers.add(new Teacher("Николай", "Курочкин", 36, 100002, "Младший научный сотрудник"));
         averageAgeTeachers.add(new Teacher("Виктор", "Викторов ", 59, 303, "Доцент"));
-        System.out.println(averageAgeTeachers + " (для преподавателей)");
+        System.out.println(averageAgeTeachers + " ( преподавателей)");
 
         AverageAge<Employee> averageAgeEmployees = new AverageAge<>();
         averageAgeEmployees.add(new Employee("Юрий", "Шатов ", 48, 10000001));
         averageAgeEmployees.add(new Employee("Ирина", "Лукьянова ", 36, 10000002));
         averageAgeEmployees.add(new Employee("Кирилл", "Александров ", 41, 10000003));
-        System.out.println(averageAgeEmployees + " (для сотрудников)");
+        System.out.println(averageAgeEmployees + " ( сотрудников)");
 
         
     }
